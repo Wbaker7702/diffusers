@@ -7,6 +7,7 @@ deps = {
     "compel": "compel==0.1.8",
     "datasets": "datasets",
     "filelock": "filelock",
+    "packaging": "packaging",
     "flax": "flax>=0.4.1",
     "hf-doc-builder": "hf-doc-builder>=0.3.0",
     "httpx": "httpx<1.0.0",

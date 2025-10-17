@@ -100,6 +100,7 @@ _deps = [
     "compel==0.1.8",
     "datasets",
     "filelock",
+    "packaging",
     "flax>=0.4.1",
     "hf-doc-builder>=0.3.0",
     "httpx<1.0.0",
@@ -260,6 +261,7 @@ extras["dev"] = (
 
 install_requires = [
     deps["importlib_metadata"],
+    deps["packaging"],
     deps["filelock"],
     deps["httpx"],
     deps["huggingface-hub"],
